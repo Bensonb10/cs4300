@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F & M's</title>
+    <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <?php include "assets/css/index.php" ?>
 </head>
 
@@ -14,32 +17,48 @@
     <header>
         <nav>
             <a href="index.php" class="logo">
-                <img src="assets/img/logo1.png" height="80">
+                <img src="img/logo1.png" height="80">
             </a>
+
             <ul>
-                <li class="active">
+                <li>
                     <a href="index.php" class="nav-link">Home</a>
                 </li>
                 <li>
                     <a href="contact.php" class="nav-link">Contact Us</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="testimonials.php" class="nav-link">Testimonials</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <!-- <section class="hero">
-            <h1>You Deserve to be Beauty</h1>
-        </section> -->
-        <section id="products-sec">
-            <h1 class="title">Products</h1>
+        <section class="products-sec">
+            <h1 class="title">Testimonials</h1>
         </section>
     </main>
     <footer>
-        <div id="social-sec">
+        <div class="social">
             <h3 class="f-title">Social Media</h3>
+            <ul>
+                <li>
+                    <i class="fa fa-facebook-square"></i>
+                    <a href="#">Facebook</a>
+                </li>
+                <li>
+                    <i class="fa fa-instagram"></i>
+                    <a href="#">Instagram</a>
+                </li>
+                <li>
+                    <i class="fa fa-twitter-square"></i>
+                    <a href="#">Twitter</a>
+                </li>
+                <li>
+                    <i class="fa fa-google-plus-square"></i>
+                    <a href="#">Google</a>
+                </li>
+            </ul>
         </div>
         <div class="contact">
             <h3 class="f-title">Contact Us</h3>
@@ -57,7 +76,7 @@
                 </li>
                 <li>
                     <i class="fa fa-phone"></i>
-                    <a href="tel:+123 456 789">+123 456 789</a>
+                    <a href="tel:(590) 423 446 924">(590) 423 446 924</a>
                 </li>
             </ul>
         </div>
@@ -65,27 +84,27 @@
             <h3 class="f-title">Frequently asked questions</h3>
             <ul>
                 <li>
-                    Fusce eget dolor adipiscing
+                    Questions???
                 </li>
                 <li>
-                    Posuere nisl eu venenatis gravida
+                    Questions???
                 </li>
                 <li>
-                    Morbi dictum ligula mattis
+                    Questions???
                 </li>
                 <li>
-                    Etiam diam vel dolor luctus dapibus
+                    Questions???
                 </li>
                 <li>
-                    Vestibulum ultrices magna
+                    Questions???
                 </li>
             </ul>
         </div>
         <div class="sub-footer">
-            <p>Current Time: <span id="time"></span></p>
+            <p>Current Date & Time: <span id="time"></span></p>
         </div>
     </footer>
-    <?php include "assets/js/index.php" ?>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
