@@ -15,15 +15,12 @@
     include "components/header.php";
 
     $uri = $_SERVER['REQUEST_URI'];
-    $queryPos = strpos($uri, "?");
-    if ($queryPos > 0) {
-        $uri = substr($uri, 0, $queryPos);
-    }
+    // $queryPos = strpos($uri, "?");
+    // if ($queryPos > 0) {
+    //     $uri = substr($uri, 0, $queryPos);
+    // }
 
-    // if (substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], "?")) == "/product") require __DIR__ . '/views/product/index.php';
-    // else if ($_SERVER['REQUEST_URI'] == "/contact") require __DIR__ . '/views/contact/index.php';
-    // else if ($_SERVER['REQUEST_URI'] == "/testimonials") require __DIR__ . '/views/testimonials.php';
-    // else require __DIR__ . '/views/home/index.php';
+    $uri = strpos($uri, "?") > 0 ? substr($uri, 0, strpos($uri, "?")) : $uri;
 
     switch ($uri) {
         case "/product":
