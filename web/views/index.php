@@ -1,4 +1,4 @@
-<main>
+<main  class="clearfix">
     <section class="hero">
         <h1>You Deserve to be Beauty</h1>
     </section>

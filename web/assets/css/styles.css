@@ -354,3 +354,9 @@ textarea {
 .rating .fa{
     color: #ffc613;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
