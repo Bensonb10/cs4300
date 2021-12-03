@@ -16,8 +16,6 @@
     require "config/connection.php";
     include "components/header.php";
 
-    // echo substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], "?"));
-
     switch (substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], "?"))) {
         case '/contact':
             require __DIR__ . '/views/contact/index.php';
@@ -26,7 +24,7 @@
             require __DIR__ . '/views/testimonials.php';
             break;
         case '/product':
-            require __DIR__ . '/views/product.php';
+            require __DIR__ . '/views/product/index.php';
             break;
         default:
             require __DIR__ . '/views/index.php';
