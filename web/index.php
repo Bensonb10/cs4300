@@ -23,6 +23,9 @@
         case '/testimonials':
             require __DIR__ . '/views/testimonials.php';
             break;
+        case '/product':
+            require __DIR__ . '/views/product.php';
+            break;
         default:
             require __DIR__ . '/views/index.php';
             break;
