@@ -25,6 +25,7 @@
         function render()
         {
             foreach ($this->collection as $prod) {
+                $prod;
                 include "views/product/product_card.php";
             }
         }
@@ -114,11 +115,5 @@
     );
 
     $products[$_GET["type"]]->render();
-
-    // $selected_products = $products[$_GET["type"]];
-    // foreach ($selected_products as $prod) {
-    //     include "views/product/product_card.php";
-    // }
-
     ?>
 </main>
