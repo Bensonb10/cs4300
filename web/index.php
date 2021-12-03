@@ -16,20 +16,10 @@
     require "config/connection.php";
     include "components/header.php";
 
-    switch (substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], "?"))) {
-        case '/contact':
-            require __DIR__ . '/views/contact/index.php';
-            break;
-        case '/testimonials':
-            require __DIR__ . '/views/testimonials.php';
-            break;
-        case '/product':
-            require __DIR__ . '/views/product/index.php';
-            break;
-        default:
-            require __DIR__ . '/views/index.php';
-            break;
-    }
+    if (substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], "?")) == "/product") require __DIR__ . '/views/product/index.php';
+    else if ($_SERVER['REQUEST_URI'] == "/contact") require __DIR__ . '/views/contact/index.php';
+    else if ($_SERVER['REQUEST_URI'] == "/testimonials") require __DIR__ . '/views/testimonials.php';
+    else require __DIR__ . '/views/index.php';
 
     include "components/footer/index.php";
     $conn->close()
