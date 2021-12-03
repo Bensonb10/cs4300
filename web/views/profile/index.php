@@ -43,8 +43,8 @@ $__self = $team[$_GET["name"]];
 
     <ul>
         <?php
-        foreach ($__self->links as $link) {
-            echo "<li>" . $link . "</li>";
+        foreach ($__self->links as $link => $value) {
+            echo "<li> <a href='" . $value . "'>".$link."</a></li>";
         }
         ?>
     </ul>
