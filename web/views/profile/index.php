@@ -37,7 +37,7 @@ $__self = $team[$_GET["name"]];
     <img src="<?php echo $__self->imgSrc; ?>" alt="" class="profile-picture">
     <?php
     foreach ($__self->desc as $para) {
-        echo $para;
+        echo "<p>". $para. "</p>";
     }
     ?>
 
