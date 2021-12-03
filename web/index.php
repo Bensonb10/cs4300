@@ -16,6 +16,8 @@
     require "config/connection.php";
     include "components/header.php";
 
+    echo $_SERVER['REQUEST_URI'];
+
     switch ($_SERVER['REQUEST_URI']) {
         case '/contact':
             require __DIR__ . '/views/contact/index.php';
