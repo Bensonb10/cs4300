@@ -52,12 +52,12 @@ function test_input($data)
         <div class="form-row">
             <?php if (!$emailValid) echo "<div class=\"error\">" . $emailErr . "</div>"; ?>
             <label for="email">Email:</label>
-            <input type="text" name="email" class="input" placeholder="someone@xyz.com" value="<?php echo $email; ?>">
+            <input required type="text" name="email" class="input" placeholder="someone@xyz.com" value="<?php echo $email; ?>">
         </div>
         <div class="form-row">
             <?php if (!$messageValid) echo "<div class=\"error\">" . $messageErr . "</div>"; ?>
             <label for="message">Message:</label>
-            <textarea name="message" class="input" rows="10"><?php echo $message; ?></textarea>
+            <textarea required name="message" class="input" rows="10"><?php echo $message; ?></textarea>
         </div>
         <div class="form-row center">
             <button class="btn" type="submit">
