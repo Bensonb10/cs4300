@@ -13,7 +13,7 @@ class Product_Card
     }
 }
 $products = array(
-    "birthstonering" => array(
+    "BirthstoneRings" => array(
         new Product_Card("assets/img/Jan-BirthStone.jpg", "January Birthstone", "Price: 500"),
         new Product_Card("assets/img/feb-birthstone.jpg", "February Birthstone", "Price: 500"),
         new Product_Card("assets/img/Mar-birthStone.jpg", "March Birthstone", "Price: 550"),
@@ -23,7 +23,7 @@ $products = array(
         new Product_Card("assets/img/nov-birthStone.jpg", "November Birthstone", "Price: 600"),
         new Product_Card("assets/img/dec-birthstone.jpg", "December Birthstone", "Price: 800")
     ),
-    "claddaghring" => array(
+    "CladdaghRings" => array(
         new Product_Card("assets/img/claddagh.jpg", "Claddagh Ring", "Price: 400"),
         new Product_Card("assets/img/claddagh2.jpg", "Claddagh Ring", "Price: 500"),
         new Product_Card("assets/img/claddagh3.jpg", "Claddagh Ring", "Price: 550"),
@@ -33,7 +33,7 @@ $products = array(
         new Product_Card("assets/img/claddagh7.jpg", "Claddagh Ring", "Price: 600"),
         new Product_Card("assets/img/claddagh8.jpg", "Claddagh Ring", "Price: 300")
     ),
-    "earrings" => array(
+    "DiamondEarrings" => array(
         new Product_Card("assets/img/earring.jpg", "Stud Earrings", "Price: 4,000"),
         new Product_Card("assets/img/earring2.jpg", "London Blue Topaz and Diamond Earing", "Price: 5,000"),
         new Product_Card("assets/img/earring3.jpg", "Stud Halo Earrings", "Price: 5,500"),
@@ -43,7 +43,7 @@ $products = array(
         new Product_Card("assets/img/earring7.jpg", "Drop Swirl Diamond Earring", "Price: 6,000"),
         new Product_Card("assets/img/earring8.jpg", "Antique Drop Diamond Earrings", "Price: 3,000")
     ),
-    "haloring" => array(
+    "HaloEngagementRings" => array(
         new Product_Card("assets/img/haloRing.jpg", "Halo Engagement Ring", "Price: 4,000"),
         new Product_Card("assets/img/haloRing2.jpg", "Halo Engagement Ring", "Price: 5,000"),
         new Product_Card("assets/img/haloRing3.jpg", "Halo Engagement Ring", "Price: 5,500"),
@@ -53,7 +53,7 @@ $products = array(
         new Product_Card("assets/img/haloRing7.jpg", "Halo Engagement Ring", "Price: 6,000"),
         new Product_Card("assets/img/haloRing8.jpg", "Halo Engagement Ring", "Price: 3,000")
     ),
-    "pavering" => array(
+    "PaveEngagementRings" => array(
         new Product_Card("assets/img/paveRing.jpg", "Pave Engagement Ring", "Price: 4,000"),
         new Product_Card("assets/img/paveRing2.jpg", "Pave Engagement Ring", "Price: 5,000"),
         new Product_Card("assets/img/paveRing3.jpg", "Pave Engagement Ring", "Price: 5,500"),
@@ -63,7 +63,7 @@ $products = array(
         new Product_Card("assets/img/paveRing7.jpg", "Pave Engagement Ring", "Price: 6,000"),
         new Product_Card("assets/img/paveRing8.jpg", "Pave Engagement Ring", "Price: 3,000")
     ),
-    "solitarering" => array(
+    "SolitareEngagementRings" => array(
         new Product_Card("assets/img/solitareRing.jpg", "Solitare Engagement Ring ", "Price: 4,000"),
         new Product_Card("assets/img/solitareRing2.jpg", "Solitare Engagement Ring ", "Price: 5,000"),
         new Product_Card("assets/img/solitareRing3.jpg", "Solitare Engagement Ring ", "Price: 5,500"),
@@ -73,7 +73,7 @@ $products = array(
         new Product_Card("assets/img/solitareRing7.jpg", "Solitare Engagement Ring ", "Price: 6,000"),
         new Product_Card("assets/img/solitareRing8.jpg", "Solitare Engagement Ring ", "Price: 3,000")
     ),
-    "tensionset" => array(
+    "TensionSetEngagementRings" => array(
         new Product_Card("assets/img/tensionSet.jpg", "Tension Set Engagement Ring ", "Price: 4,000"),
         new Product_Card("assets/img/tensionSet2.jpg", "Tension Set Engagement Ring ", "Price: 5,000"),
         new Product_Card("assets/img/tensionSet3.jpg", "Tension Set Engagement Ring ", "Price: 5,500"),
@@ -83,7 +83,7 @@ $products = array(
         new Product_Card("assets/img/tensionSet7.jpg", "Tension Set Engagement Ring ", "Price: 6,000"),
         new Product_Card("assets/img/tensionSet8.jpg", "Tension Set Engagement Ring ", "Price: 3,000")
     ),
-    "weddingband" => array(
+    "WeddingBands" => array(
         new Product_Card("assets/img/WeddingBand.jpg", "Eternity Wedding Band", "Price: 650"),
         new Product_Card("assets/img/WeddingBands.jpg", "Oravo Wedding Band", "Price: 500"),
         new Product_Card("assets/img/weddingBand3.jpg", "Kendra Scott Wedding Ring", "Price: 600"),

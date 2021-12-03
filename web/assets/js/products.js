@@ -1,12 +1,12 @@
 const PRODUCTS_DATA = [
-    new Card("/assets/img/product1.jpg", "Excepteur sint occaecat"),
-    new Card("/assets/img/product2.jpg", "Lorem ipsum dolor"),
-    new Card("/assets/img/product3.jpg", "cupidatat non proident"),
-    new Card("/assets/img/product4.jpg", "Duis aute irure"),
-    new Card("/assets/img/product5.jpg", "magna aliqua"),
-    new Card("/assets/img/product6.jpg", "Lorem occaecat"),
-    new Card("/assets/img/product7.jpg", "Occaecat Duis"),
-    new Card("/assets/img/product8.jpg", "illum qui dolorem eum fugiat")
+    new Card("/assets/img/product1.jpg", "Wedding Bands"),
+    new Card("/assets/img/product2.jpg", "Diamond Earrings"),
+    new Card("/assets/img/product3.jpg", "Birthstone Rings"),
+    new Card("/assets/img/product4.jpg", "Claddagh Rings"),
+    new Card("/assets/img/product5.jpg", "Pave Engagement Rings"),
+    new Card("/assets/img/product6.jpg", "Solitare Engagement Rings"),
+    new Card("/assets/img/product7.jpg", "Tension Set Engagement Rings"),
+    new Card("/assets/img/product8.jpg", "Halo Engagement Rings")
 ];
 
 const productsSec = document.getElementById("products-sec");
