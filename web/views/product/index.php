@@ -37,7 +37,7 @@
             new Product_Card("assets/img/feb-birthStone.jpg", "February Birthstone", "Price: 500"),
             new Product_Card("assets/img/Mar-birthStone.jpg", "March Birthstone", "Price: 550"),
             new Product_Card("assets/img/April-birthStone.jpg", "April Birthstone", "Price: 750"),
-            new Product_Card("assets/img/sep-birthStone.jpg", "September Birthstone", "Price: 450"),
+            new Product_Card("assets/img/Sep-birthStone.jpg", "September Birthstone", "Price: 450"),
             new Product_Card("assets/img/Oct-birthStone.jpg", "October Birthstone", "Price: 300"),
             new Product_Card("assets/img/nov-birthStone.jpg", "November Birthstone", "Price: 600"),
             new Product_Card("assets/img/dec-birthStone.jpg", "December Birthstone", "Price: 800")
