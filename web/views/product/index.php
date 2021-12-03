@@ -33,14 +33,14 @@
 
     $products = array(
         "BirthstoneRings" => new Product_Collection(array(
-            new Product_Card("assets/img/Jan-BirthStone.jpg", "January Birthstone", "Price: 500"),
-            new Product_Card("assets/img/feb-birthstone.jpg", "February Birthstone", "Price: 500"),
+            new Product_Card("assets/img/Jan-birthStone.jpg", "January Birthstone", "Price: 500"),
+            new Product_Card("assets/img/feb-birthStone.jpg", "February Birthstone", "Price: 500"),
             new Product_Card("assets/img/Mar-birthStone.jpg", "March Birthstone", "Price: 550"),
             new Product_Card("assets/img/April-birthStone.jpg", "April Birthstone", "Price: 750"),
-            new Product_Card("assets/img/Sep-birthstone.jpg", "September Birthstone", "Price: 450"),
-            new Product_Card("assets/img/Oct-birthstone.jpg", "October Birthstone", "Price: 300"),
+            new Product_Card("assets/img/sep-birthStone.jpg", "September Birthstone", "Price: 450"),
+            new Product_Card("assets/img/Oct-birthStone.jpg", "October Birthstone", "Price: 300"),
             new Product_Card("assets/img/nov-birthStone.jpg", "November Birthstone", "Price: 600"),
-            new Product_Card("assets/img/dec-birthstone.jpg", "December Birthstone", "Price: 800")
+            new Product_Card("assets/img/dec-birthStone.jpg", "December Birthstone", "Price: 800")
         )),
         "CladdaghRings" => new Product_Collection(array(
             new Product_Card("assets/img/claddagh.jpg", "Claddagh Ring", "Price: 400"),
@@ -110,7 +110,7 @@
             new Product_Card("assets/img/WeddingBand2.jpg", "14k Gold Wedding Band", "Price: 1,500"),
             new Product_Card("assets/img/WeddingBand5.jpg", "Luxurman Wedding Band", "Price: 2,000"),
             new Product_Card("assets/img/WeddingBand6.jpg", "Cavalier Wedding Band", "Price: 3,000"),
-            new Product_Card("assets/img/earring8.jpg", "Manly Bands", "Price: 1,000")
+            new Product_Card("assets/img/WeddingBand7.jpg", "Manly Bands", "Price: 1,000")
         ))
     );
 
