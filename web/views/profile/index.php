@@ -37,14 +37,14 @@ $__self = $team[$_GET["name"]];
     <img src="<?php echo $__self->imgSrc; ?>" alt="" class="profile-picture">
     <?php
     foreach ($__self->desc as $para) {
-        echo "<p>". $para. "</p>";
+        echo "<p>" . $para . "</p>";
     }
     ?>
 
     <ul>
         <?php
         foreach ($__self->links as $link => $value) {
-            echo "<li> <a href='" . $value . "'>".$link."</a></li>";
+            echo "<li> <a href='" . $value . "'>" . $link . "</a></li>";
         }
         ?>
     </ul>
