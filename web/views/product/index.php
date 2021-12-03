@@ -98,9 +98,6 @@
 
     $selected_products = $products[$_GET["type"]];
     foreach ($selected_products as $prod) {
-        $__src = $prod->src;
-        $__desc = $prod->desc;
-        $__price = $prod->price;
         include "views/product/product_card.php";
     }
 
