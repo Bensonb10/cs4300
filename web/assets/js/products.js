@@ -1,6 +1,6 @@
 const collections = Array.from(document.getElementsByClassName("items"));
 collections.forEach(collection => {
-    collection.onclick = () => {
-        window.location.assign("/product?type=" + collection.name);
+    collection.onclick = function () {
+        window.location.assign("/product?type=" + this.name);
     }
 })
