@@ -9,6 +9,9 @@ class Card {
     toNode() {
         const item = document.createElement("div");
         item.classList.add("items");
+        item.onclick = () => {
+            window.location.pathname = "/product"
+        }
 
         const card = document.createElement("div");
         card.classList.add("card");
