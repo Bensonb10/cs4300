@@ -10,7 +10,7 @@ class Card {
         const item = document.createElement("div");
         item.classList.add("items");
         item.onclick = () => {
-            window.location.pathname = "/product/" + this.desc.replace(/\s/g, "");
+            window.location.assign("/product/" + this.desc.replace(/\s/g, ""));
         }
 
         const card = document.createElement("div");
