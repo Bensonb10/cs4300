@@ -24,6 +24,5 @@
         $prod = new Product($record["ImgSrc"], $record["FriendlyName"], $record["Price"]);
         include "views/product/product_card.php";
     }
-    // $products[$_GET["type"]]->render();
     ?>
 </main>
