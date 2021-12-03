@@ -7,4 +7,5 @@
         <h1 class="title">Products</h1>
     </section>
 </main>
+<script src="assets/js/product_card.js"></script>
 <script src="assets/js/products.js"></script>

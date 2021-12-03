@@ -1,7 +1,7 @@
 <main>
-        <section class="products-sec">
-            <h1 class="title">Testimonials</h1>
-            <div class="testimonial">
+    <section class="products-sec">
+        <h1 class="title">Testimonials</h1>
+        <div class="testimonial">
             <div class="small-container">
                 <div class="row">
                     <div class="col-3">
@@ -87,5 +87,5 @@
                 </div>
             </div>
         </div>
-        </section>
-    </main>
+    </section>
+</main>
