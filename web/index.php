@@ -16,9 +16,9 @@
     require "config/connection.php";
     include "components/header.php";
 
-    echo substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], "?"));
+    // echo substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], "?"));
 
-    switch ($_SERVER['REQUEST_URI']) {
+    switch (substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], "?"))) {
         case '/contact':
             require __DIR__ . '/views/contact/index.php';
             break;
