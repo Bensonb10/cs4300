@@ -15,10 +15,6 @@
     include "components/header.php";
 
     $uri = $_SERVER['REQUEST_URI'];
-    // $queryPos = strpos($uri, "?");
-    // if ($queryPos > 0) {
-    //     $uri = substr($uri, 0, $queryPos);
-    // }
 
     $uri = strpos($uri, "?") > 0 ? substr($uri, 0, strpos($uri, "?")) : $uri;
 

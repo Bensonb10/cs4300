@@ -50,7 +50,17 @@ $team = array(
             "LinkedIn" => "https://www.linkedin.com/in/dat-nguyen-8a4823208/"
         )
     ),
-    "eric" => new TeamMember(),
+    "eric" => new TeamMember(
+        "Eric Herrera",
+        "assets/img/eric.jpg",
+        array(
+            "Hello, my name is Eric Herrera, and I am currently a Senior at the University of Houston-Downtown pursuing a bachelor’s degree in Computer Science. This past year has been an exciting one for me as I was just recently engaged to my girlfriend of 5 years, and we also just celebrated the birth of our first-born son in mid-September. I have taken some self-taught courses previously about Web Development and have found a certain interest in the Python Django framework, so this course has been a great refresher to help reinforce some of those processes learned previously.  Throughout my academic career at UHD, I’ve had the opportunity to intern at a Healthcare Compliance and IT company and plan to pursue a career post-graduation with them managing accounts and testing and certifying EHR software. Although I have a job lined up for testing and certifying software, I wouldn’t mind changing directions toward software engineering or being a full-stack developer."
+        ),
+        array(
+            "GitHub" => "https://github.com/EHerrera95",
+            "LinkedIn" => "https://www.linkedin.com/in/eric-herrera-63ba99205/"
+        )
+    ),
 );
 $__self = $team[$_GET["name"]];
 ?>
